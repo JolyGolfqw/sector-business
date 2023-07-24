@@ -1,0 +1,28 @@
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  background: #474955;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 137.687%;
+  cursor: pointer;
+}
+
+@media (max-width: 425px) {
+  .heading {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .heading {
+    gap: 5px;
+  }
+}
+
+._active {
+  transform: rotate(180deg);
+}

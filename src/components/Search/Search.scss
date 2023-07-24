@@ -12,11 +12,15 @@
 
 .search__input {
   background: transparent;
-  color: #b2b7bf;
-  font-size: 14px;
   line-height: 137.687%;
+  color: #fff;
+  font-size: 14px;
   padding-right: 25px;
   width: 100%;
+}
+
+.search__input::placeholder {
+  color: #b2b7bf;
 }
 
 .search__button {
